@@ -46,7 +46,7 @@ void motor_control(int turn_angle)
   //analogWrite(motor_f, 0);
 }
 
-void servo_control(int left, int center, int right);
+void servo_control(int left, int center, int right);    //Servo Example in Arduino info
 {
   //map the readings (0 to 1023) to an angle (0 to 179)
   int mapL = map(left, 0, 1023, 0, 179);
