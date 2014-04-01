@@ -2,7 +2,7 @@
 #include <Servo.h>
 
 
-//PWM enabled digital pins: 3,5(not too good),6(not good either),9,10,11,13
+//PWM enabled digital pins: 3,5(not too good),6(not good either),9,10,11,13 
 //Analog inputs: A0-A5, A6-A11 (on digital pins: 4,6,7,8,9,10,12)
 #define motorDRIVE    9    //forward PWM
 #define motorREVERSE  10   //reverse PWM 
